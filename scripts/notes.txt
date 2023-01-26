@@ -1,0 +1,4 @@
+we can use export to use a variable create in the command line to use it in a script
+To test if a exist exist if [ -e $filename ]
+To test if a directory exist if [ -d $directory ]
+and = && or = ||

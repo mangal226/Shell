@@ -1,0 +1,30 @@
+172.17.15.114
+
+formu08 sopra*
+sopra*
+sopra*
+
+droits:
+lecture 4
+ecriture 2
+execution 1
+
+echo hello --> hello
+echo $hello --> 375
+echo ${hello} -->375
+echo "$hello" --> 375
+echo "${hello}" --> 375
+echo
+hello="A B C    D"
+echo $hello --> A B C D
+echo "$hello"--> A B C    D
+echo "${hello}"--> A B C    D
+
+if c'est la commande test: man test pour voir ce que la commande propose
+
+lorsqu'on definit une variable test on ecrase le fonctionnement de la commande if
+Faire attention a ne pas avoir des noms de variables avec les commande linux( test, cd, ls, dd)
+4096 pour une ligne sur unix après y'a plus de lecture
+recursivite non
+gestion des fonction juste des chiffres
+pas de text ou autre

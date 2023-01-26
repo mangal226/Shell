@@ -1,0 +1,19 @@
+appender
+filebeat
+Presentation
+File beat envoie les logs 
+SOCA H librairie pour pousser les logs vers Kakfa
+
+Comment ça fonctionne?
+Faire toute la chaine avec Kafka
+
+Offre classique:
+File beat -> Logstash -> Elastik -> Kibana pour la restitution
+Syslog -> Syslog local -> SyslogAgent -> ELK
+
+Contention sur filebeat: Si filebeat crash on perd les logs
+Kafka peut servir de zone tampon(ne pas perdre les données au cas ou le système plante, on le garde sur une memoire tampon)
+
+Comment pousser les données sur un cluster kafka
+
+
